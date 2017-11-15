@@ -1,20 +1,27 @@
+
+
 div {
     width: 100px;
     height: 100px;
     display: inline-block;
 }
 
-#midWindow {
+#bigMidWindow {
     width: 100%;
     min-height: 800px;
 }
 
+#midWindow {
+    width: 70%;
+}
+
 #mainWindow {
-    padding-right: 15%;
+    width: 100%;
+    min-height: 780px;
 }
 
 #sortBar {
-    width: 65%;
+    width: 100%;
     height: 20px;
     align: center;
     background-color: blue;
