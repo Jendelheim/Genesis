@@ -1,0 +1,67 @@
+/*
+    README.md contains information on how to interpret and visualize the order
+    of ID's in the stylesheets
+*/
+
+
+div {
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+}
+
+#maxWindow {
+  background-color : lightpink;
+  width : 100%;
+  min-height : 1000px;
+  max-height : 2000px;
+}
+#header {
+  width: 100%;
+  height: 15%;
+  background-color: aqua;
+}
+
+#bigMidWindow {
+    width: 100%;
+    min-height: 800px;
+}
+#midWindow {
+    width: 70%;
+}
+#sortBar {
+  width: 100%;
+  height: 20px;
+  align: center;
+  background-color: blue;
+
+}
+
+#mainWindow {
+    width: 100%;
+    min-height: 780px;
+}
+
+
+#leftAdBar {
+  float: left;
+}
+
+#rightAdBar {
+  float: right;
+}
+
+
+
+
+
+.adBars {
+    background-color: purple;
+    height: 800px;
+    width: 15%;
+}
+
+.sorting {
+    width: 10%;
+    padding-right: 5%;
+}
