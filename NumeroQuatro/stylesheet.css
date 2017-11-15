@@ -1,0 +1,45 @@
+div {
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+}
+
+#sortBar {
+    width: 100%;
+    height: 20px;
+    align: center;
+    background-color: blue;
+
+}
+
+#header {
+    width: 100%;
+    height: 10%;
+    background-color: aqua;
+}
+
+#leftAdBar {
+    float: left;
+}
+
+#rightAdBar {
+    float: right;
+}
+
+#maxWindow {
+    background-color : lightpink;
+    width : 100%;
+    min-height : 1000px;
+    max-height : 2000px;
+}
+
+.adBars {
+    background-color: purple;
+    height: 800px;
+    width: 100px;
+}
+
+.sorting {
+    width: 10%;
+    padding-right: 5%;
+}
