@@ -4,8 +4,17 @@ div {
     display: inline-block;
 }
 
-#sortBar {
+#midWindow {
     width: 100%;
+    min-height: 800px;
+}
+
+#mainWindow {
+    padding-right: 15%;
+}
+
+#sortBar {
+    width: 65%;
     height: 20px;
     align: center;
     background-color: blue;
@@ -36,7 +45,7 @@ div {
 .adBars {
     background-color: purple;
     height: 800px;
-    width: 100px;
+    width: 15%;
 }
 
 .sorting {
