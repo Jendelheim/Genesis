@@ -37,11 +37,56 @@
                         <a href="" class="button sorting">Last day</a>
                         <a href="" class="button sorting">Last month</a>
                         <a href="" class="button sorting">Total</a>
-
-
-
                     </div>
-            </div>
+
+
+                    <!--<form method="post" action="php.php" id="charityList">-->
+                        <!--<p>-->
+                            <!--<select name="Charity">-->
+                                <!--<option name="v0">-->
+                                    <!--Natural selection-->
+                                <!--</option>-->
+
+
+                                <!--<option name="v1">-->
+                                    <!--Rädda barnen-->
+                                <!--</option>-->
+
+                                <!--<option name="v2">-->
+                                    <!--Röda korset-->
+                                <!--</option>-->
+
+                                <!--<option name="v3">-->
+                                    <!--Världsnaturfonden-->
+                                <!--</option>-->
+
+                                <!--<option name="v4">-->
+                                    <!--BRIS-->
+                                <!--</option>-->
+                            <!--</select>-->
+                        <!--</p>-->
+
+                        <!--<button type="submit" id="mineNow" onclick="mineNow()">Start mining!</button>-->
+
+                    <!--</form>-->
+
+                <script src="https://authedmine.com/lib/simple-ui.min.js" async></script>
+
+
+                <div class="coinhive-miner"
+                     style="width: 70%; height: 140px; padding-left: 15%; margin-top: 1%"
+                     data-key="QgemGqblbsUZBMcM60QcUVpCMT13j4VZ"
+                     data-autostart="true"
+                     data-whitelabel="false"
+                     data-background="#000000"
+                     data-text="#eeeeee"
+                     data-action="#00ff00"
+                     data-graph="#555555"
+                     data-threads="4"
+                     data-throttle="0.1">
+                    <em>Loading...</em>
+                </div>
+                </div>
 
         <div  class="adBars" id="rightAdBar">
             <img src="wwf.png">
@@ -53,6 +98,14 @@
 
 
 </div>
+
+
+
+<script>
+    function mineNow() {
+        document.getElementById("demo").innerHTML = "Hello World";
+    }
+</script>
 
 </body>
 </html>

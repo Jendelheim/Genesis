@@ -16,6 +16,12 @@ img {
 
 }
 
+#mineNow {
+    position:relative;
+    margin-top:2%;
+    left:47%;
+}
+
 #bigMidWindow {
     width: 100%;
     min-height: 800px;
@@ -32,12 +38,21 @@ img {
     background-size: 100% 100%;
 }
 
+#charityList{
+    margin-left: auto;
+    margin-right: auto;
+}
 #sortBar {
     width: 100%;
     height: 20px;
     margin-top: 1%;
-    background-color: blue;
 
+}
+
+#coinhive-miner {
+    align: center;
+    width: 70%;
+    height: 140px;
 }
 
 #counterPara {
@@ -48,7 +63,6 @@ img {
 #header {
     width: 100%;
     height: 7%;
-    background-color: aqua;
 }
 
 #leftAdBar {
@@ -60,18 +74,12 @@ img {
 }
 
 #maxWindow {
-    background-color : lightpink;
     width : 100%;
     min-height : 1000px;
     max-height : 2000px;
 }
 
-img {
-    max-height: 100%;
-    max-width: 100%;
-}
 .adBars {
-    background-color: purple;
     height: 800px;
     width: 10%;
 }
