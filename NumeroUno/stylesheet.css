@@ -3,26 +3,43 @@
     of ID's in the stylesheets
 */
 
-
 div {
     width: 100px;
     height: 100px;
     display: inline-block;
 }
 
+a {
+  text-decoration: none;
+}
+
 h4 {
-  display: inline-block;
+  display: inline-flex;
   font-family: "Trebuchet MS", "sansserif";
-  font-size: 16px;
-  letter-spacing: 0;
+  font-size: 14px;
+  color: #EE8D00;
 
 
 }
 
 h3 {
-  color: red;
+  color: green;
+  display: inline-block;
+  font-family: "Trebuchet MS", "sansserif";
+  font-size: 16px;
+  letter-spacing: 0;
 
 }
+
+h2 {
+  color: red;
+  display: inline-block;
+  font-family: "Trebuchet MS", "sansserif";
+  font-size: 20px;
+  letter-spacing: 0;
+
+}
+
 
 
 
@@ -84,7 +101,6 @@ h3 {
 
 
 
-
 .listItem {
   background-color: green;
   height: 10%;
@@ -115,9 +131,7 @@ h3 {
 .logo {
   width: 60px;
   height: 35px;
-  border-radius: 1px;
   vertical-align: middle;
-  margin-right: 5px;
 
 }
 
@@ -148,8 +162,9 @@ h3 {
     width: 10%;
 }
 
-.sorting {
-    width: 15%;
-    height: 100%;
-    margin-left: 0.5%
+.sortingCol {
+  width: 15%;
+  height: 100%;
+  margin-right: 0.25%;
+  background-color: #222222;
 }
