@@ -3,12 +3,45 @@
     of ID's in the stylesheets
 */
 
-
 div {
     width: 100px;
     height: 100px;
     display: inline-block;
 }
+
+a {
+  text-decoration: none;
+}
+
+h4 {
+  display: inline-flex;
+  font-family: "Trebuchet MS", "sansserif";
+  font-size: 14px;
+  color: #EE8D00;
+
+
+}
+
+h3 {
+  color: green;
+  display: inline-block;
+  font-family: "Trebuchet MS", "sansserif";
+  font-size: 16px;
+  letter-spacing: 0;
+
+}
+
+h2 {
+  color: red;
+  display: inline-block;
+  font-family: "Trebuchet MS", "sansserif";
+  font-size: 20px;
+  letter-spacing: 0;
+
+}
+
+
+
 
 #maxWindow {
   background-color : lightpink;
@@ -27,24 +60,33 @@ div {
     min-height: 800px;
 }
 #midWindow {
-    width: 70%;
+    width: 80%;
+    height: 100%;
+}
+#mainWindow {
+  width: 100%;
+  min-height: 600px;
+  background-color: red;
 }
 #sortBar {
-  width: 100%;
-  height: 20px;
+  width: 99%;
+  height: 40px;
+  margin: 0.5%;
   align: center;
   background-color: blue;
 
 }
+#sort1 {
+  width: 3%;
 
-#mainWindow {
-    width: 100%;
-    min-height: 780px;
 }
+
+
 #list {
-  background-color: black;
+  background-color: orange;
   width: 100%;
-  min-height: 700px;
+  height: 100%;
+  min-height: 400px;
 }
 
 
@@ -59,63 +101,70 @@ div {
 
 
 
-
 .listItem {
   background-color: green;
-  width: 100%;
   height: 10%;
-  min-height: 40px;
-  max-height: 60px;
+  width: 99%;
+  margin: 0.5%;
+
 }
-.ordinal{
-  background-color: white;
-  height: 90%;
-  width: 30px;
+.item {
+    height: 90%;
+    width: 15%;
+    vertical-align: text-top;
+    background-color: white;
+    margin-top: 0.25%;
+    margin-left: 0.25%;
+    text-align: center;
+
 }
 
-.logo {
-  background-color: white;
-  height: 90%;
-  width: 30px;
+.ordinal{
+  width: 3%;
+
 }
+
+.logoItem {
+  height: 90%;
+  background-color: transparent;
+}
+.logo {
+  width: 60px;
+  height: 35px;
+  vertical-align: middle;
+
+}
+
 
 .code {
-  background-color: white;
-  height: 90%;
-  width: 30px;
+
 }
 
-.text {
-  background-color: white;
-  height: 90%;
-  width: 30px;
+.textBox {
+
 }
 
 .turnover {
-  background-color: white;
-  height: 90%;
-  width: 30px;
+
 }
 
 .odds {
-  background-color: white;
-  height: 90%;
-  width: 30px;
+
 }
 
 .refLink {
-  background-color: white;
-  height: 90%;
-  width: 30px;
+
 }
 
 .adBars {
     background-color: purple;
     height: 800px;
-    width: 15%;
+    width: 10%;
 }
 
-.sorting {
-    width: 10%;
-    padding-right: 5%;
+.sortingCol {
+  width: 15%;
+  height: 100%;
+  margin-right: 0.25%;
+  background-color: #222222;
 }

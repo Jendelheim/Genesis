@@ -1,9 +1,10 @@
-==================== Interpreting CSS ID's ====================
+================= Interpreting CSS classes/ID's =================
+
 To visualize the structure of this layout, follow the
 interpretation guidelines below.
 
-For each line skipped in the documentation, there is
-one div being closed in the HTML-code.
+For each empty line in the documentation, there is
+one angle bracket being closed in the HTML-code.
 E.g. the following scope:
 
 #id_A{
@@ -43,4 +44,4 @@ Simplified example:
       Three line breaks means that z it outside the div that y is in,
       outside w, which means it's separate from w.
 
-===============================================================
+=================================================================

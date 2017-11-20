@@ -34,7 +34,7 @@ img {
 #counter {
     width: 100%;
     min-height: 350px;
-    background-image: url("heatmap.png");
+    background-image: url("resources/heatmap.png");
     background-size: 100% 100%;
 }
 
