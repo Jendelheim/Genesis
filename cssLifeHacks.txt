@@ -1,0 +1,3 @@
+Name + select classes only inside a specific other class
+http://responsiveslides.com/
+
