@@ -1,0 +1,2 @@
+Useful resource for porting chrome extension to mozilla
+https://developer.mozilla.org/en-US/Add-ons/WebExtensions
