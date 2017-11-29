@@ -29,6 +29,13 @@ div {
 #midWindow {
     width: 70%;
 }
+#slider1 {
+  width: 100%;
+  height: 20%;
+  max-height: 400px;
+  background-color: green;
+}
+
 #sortBar {
   width: 100%;
   height: 20px;

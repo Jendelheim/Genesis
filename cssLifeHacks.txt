@@ -1,3 +1,5 @@
 Name + select classes only inside a specific other class
 http://responsiveslides.com/
 
+jQuery AJAX - communicate with server and update page without reloading
+https://www.w3schools.com/jquery/jquery_ref_ajax.asp
