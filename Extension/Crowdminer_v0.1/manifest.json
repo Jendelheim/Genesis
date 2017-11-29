@@ -1,0 +1,19 @@
+{
+  "manifest_version": 2,
+
+  "name": "CrowdMiner Alpha",
+  "description": "This extension allows for ethereum mining while browsing the web; the earnings go to charity. Created by VMS.",
+  "version": "0.1",
+
+  "icons": {"19": "icon.png" },
+
+  "browser_action": {
+    "default_icon": "icon.png",
+    "default_popup": "popup.html",
+    "default_title": "CrowdMiner Alpha"
+  },
+  "permissions": [
+    "activeTab",
+    "storage"
+  ]
+}
