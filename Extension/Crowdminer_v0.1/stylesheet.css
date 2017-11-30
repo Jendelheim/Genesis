@@ -35,10 +35,21 @@ p {
     font-size: 12px;
     text-align: left;
 }
-
-.switch-input {
-    margin-left: 15%;
+h2 {
+  color: #4CAF50;
 }
+
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 60px;
+    height: 34px;
+}
+.switch-label{
+  color: #4CAF50;
+}
+
+
 
 
 /* The slider itself */

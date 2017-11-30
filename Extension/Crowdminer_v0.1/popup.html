@@ -7,8 +7,8 @@
     <link rel="stylesheet" type="text/css" href="stylesheet.css">
 
     <script src="scripts/jquery.min.js"></script>
-    <!--script src=scripts/popup.js></script!-->
     <script src=scripts/mining.js></script>
+    <script src=scripts/popup.js></script>
 
 </head>
 <body>
@@ -44,13 +44,13 @@
     </div>
 
     <section id="switchArea">
-        <div class="switch">
-            <input type="radio" class="switch-input" name="view" value="on" id="week" checked>
-            <label for="week" class="switch-label switch-label-off">On</label>
-            <input type="radio" class="switch-input" name="view" value="off" id="month">
-            <label for="month" class="switch-label switch-label-on">Off</label>
+        <form class="switch">
+            <input type="radio" class="switch-input" name="view" value="on" id="miningOn">
+            <label for="miningOn" class="switch-label switch-label-off">On</label>
+            <input type="radio" class="switch-input" name="view" value="off" id="miningOff" checked>
+            <label for="miningOff" class="switch-label switch-label-on">Off</label>
             <span class="switch-selection"></span>
-        </div>
+        </form>
     </section>
 </div>
 

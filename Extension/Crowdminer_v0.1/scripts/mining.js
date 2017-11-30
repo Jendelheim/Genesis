@@ -1,24 +1,12 @@
 
-$(document).ready(function(){
-      $("input[name='view']").change(radioValueChanged);
-
-})
-function radioValueChanged(){
-  let radioVal = $(this.val);
-
-  alert(radioVal);
-
-  if($(this).is(":checked") && radioVal == 0){
-    startMining();
-  }
-}
-
-
-;
-
-
-function startMining(){
-
-  console.log("MINING STARTED");
-
-}
+/*
+$(window).on('storage', function(e){
+  console.log("BLABLABLABLA");
+  console.log("GOOD JOB");
+  alert('IT\'S WORKING');
+});
+*/
+window.addEventListener('storage', function(event){
+  console.log("BLABLA");
+  alert('YOO');
+});
