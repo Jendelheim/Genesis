@@ -8,15 +8,16 @@ require_once("facebook.php");
 // initialize Facebook class using your own Facebook App credentials
 // see: https://developers.facebook.com/docs/php/gettingstarted/#install
 $config = array();
-$config['appId'] = '147131592595211';
-$config['secret'] = '3465311dbe5f3062e655c0d09dcd4723';
+$config['appId'] = '1483499941698949';
+$config['secret'] = 'f7e47477a55c4f1064a5bfc0b35b4edd';
 $config['fileUpload'] = false; // optional
 
 $fb = new Facebook($config);
 
+
 // define your POST parameters (replace with your own values)
 $params = array(
-    "access_token" => "YOUR_ACCESS_TOKEN", // see: https://developers.facebook.com/docs/facebook-login/access-tokens/
+    "access_token" => $fb->getAccessToken(), // see: https://developers.facebook.com/docs/facebook-login/access-tokens/
     "message" => "Here is a blog post about auto posting on Facebook using PHP #php #facebook",
     "link" => "http://www.pontikis.net/blog/auto_post_on_facebook_with_php",
     "picture" => "http://i.imgur.com/lHkOsiH.png",
@@ -28,7 +29,7 @@ $params = array(
 // post to Facebook
 // see: https://developers.facebook.com/docs/reference/php/facebook-api/
 try {
-    $ret = $fb->api('/YOUR_FACEBOOK_ID/feed', 'POST', $params);
+    $ret = $fb->api('/598435271/feed', 'POST', $params);
     echo 'Successfully posted to Facebook';
 } catch(Exception $e) {
     echo $e->getMessage();
