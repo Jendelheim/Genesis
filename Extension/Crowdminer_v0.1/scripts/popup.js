@@ -18,7 +18,6 @@ function stopMining(){
 
 
 $(document).ready(function(){
-      localStorage.setItem("mining", "off");
       console.log("turned off");
 
 
