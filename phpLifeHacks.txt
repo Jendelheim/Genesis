@@ -1,2 +1,5 @@
 Explains exactly how to decode .json files in php and how to access the data
 https://stackoverflow.com/questions/29308898/how-do-i-extract-data-from-json-with-php
+
+Already existing API to communicate with db?
+https://www.w3.org/TR/IndexedDB/

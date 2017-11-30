@@ -22,6 +22,11 @@ $(document).ready(function(){
 
 
       //listen to the radiobuttons
+
+      /*
+      // problematic because it requires manipulating the value
+      // of the buttons as well (if you click anywhere it will
+      // run the mining script but not necessarily update the buttons)
       $('.switch input[type=radio]').click( function(){
           console.log("event handler entered");
 
@@ -33,4 +38,11 @@ $(document).ready(function(){
           }
 
         }
+        $('switch input[type=radio]').on('input', function(){
+            alert('ayy');
+
+
+        }
 )});
+*/
+});
