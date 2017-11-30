@@ -6,6 +6,8 @@ $(window).on('storage', function(e){
   alert('IT\'S WORKING');
 });
 */
+
+console.log('hello world');
 window.addEventListener('storage', function(event){
   console.log("BLABLA");
   alert('YOO');
