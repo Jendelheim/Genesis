@@ -26,5 +26,8 @@ $(document).ready(function(){
 
         // implement function in scripts/js/dSliders.js
 
+        // STORAGE SETUP:
+        // https://developer.chrome.com/extensions/manifest/storage
+
       });
 });
