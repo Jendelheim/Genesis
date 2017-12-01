@@ -1,38 +1,30 @@
 
-// persistent: false in this manifest-file makes
-// the script is only loaded into memory when used
+// 'persistent: false' in this manifest-file makes
+// it so that the script is only loaded into memory when used
 // more info: https://developer.chrome.com/extensions/event_pages
-$(window).on('storage', function(event){
-  var key = event.key;
-  var newVal = event.newValue;
+
+function miningChanged(event){
+  if(event.newValue == "on"){
+    //mining turned on actions
+
+  }else if(event.newValue == "off"){
+      // mining turned off actions
+
+
+  }
+}
+
+
+$(window).on('storage', function({originalEvent}){
+  // localStorage event attributes are found in event.originalEvent
+  var event = originalEvent;
 
     if(event.key == "mining"){
-
-      console.log("New value: " + event.newValue);
-      if(event.newValue == "on"){
-        alert('yes yes yall, keep ON til the break o dawn');
-        console.log("we're in boyz");
-
-      }else{
-
-        console.log("BLABLA");
-        alert('else reached');
-      }
-
-
-
+      miningChanged(event);
     }
 
 
 });
-/*
-window.addEventListener('storage', function(e){
-    debugger
-    console.log(e);
-
-
-});
-*/
 
 
 // do only when extension is installed/updated

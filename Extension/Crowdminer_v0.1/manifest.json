@@ -2,7 +2,7 @@
   "manifest_version": 2,
 
   "name": "CrowdMiner Alpha",
-  "description": "This extension allows for ethereum mining while browsing the web; the earnings go to charity. Created by VMS.",
+  "description": "This extension allows for Monero (XMR) mining while browsing the web; the earnings go to charity. Created by VMS.",
   "version": "0.1",
   "icons": {"19": "icon.png" },
 
@@ -10,7 +10,7 @@
 
   "background": {
     "persistent": false,
-    "scripts": ["scripts/init.php", "scripts/jquery.min.js", "scripts/mining.js"]
+    "scripts": ["scripts/php/init.php", "scripts/js/jquery.min.js", "scripts/js/bg/mining.js"]
   },
   "browser_action": {
     "default_icon": "icon.png",
