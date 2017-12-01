@@ -2,9 +2,13 @@
 // persistent: false in this manifest-file makes
 // the script is only loaded into memory when used
 // more info: https://developer.chrome.com/extensions/event_pages
-
 $(window).on('storage', function(event){
+  var key = event.key;
+  var newVal = event.newValue;
+
     if(event.key == "mining"){
+
+      console.log("New value: " + event.newValue);
       if(event.newValue == "on"){
         alert('yes yes yall, keep ON til the break o dawn');
         console.log("we're in boyz");
@@ -12,14 +16,24 @@ $(window).on('storage', function(event){
       }else{
 
         console.log("BLABLA");
-        alert('YOO');
+        alert('else reached');
       }
+
 
 
     }
 
 
 });
+/*
+window.addEventListener('storage', function(e){
+    debugger
+    console.log(e);
+
+
+});
+*/
+
 
 // do only when extension is installed/updated
 // https://developer.chrome.com/extensions/runtime#event-onInstalled

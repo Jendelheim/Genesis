@@ -18,7 +18,7 @@ function stopMining(){
 
 
 $(document).ready(function(){
-      console.log("turned off");
+      console.log("popup loaded");
 
 
       //listen to the radiobuttons
@@ -38,11 +38,16 @@ $(document).ready(function(){
           }
 
         }
-        $('switch input[type=radio]').on('input', function(){
-            alert('ayy');
+        */
+        $('input[type=checkbox]').change(function(){
+            console.log("Checkbox listener entered");
+
+            if(localStorage.mining == "on"){
+              stopMining();
+            }else{
+              startMining();
+            }
 
 
-        }
-)});
-*/
+        })
 });
