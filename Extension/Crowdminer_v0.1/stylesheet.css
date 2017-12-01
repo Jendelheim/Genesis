@@ -46,6 +46,9 @@ h2 {
     height: 34px;
     margin-left: 20px;
     margin-top: 20%;
+    border-color: #9B9;
+    border-style: groove;
+    border-width: 2px;
 }
 
 
@@ -60,7 +63,7 @@ h2 {
     left: 0;
     right: 0;
     bottom: 0;
-    background-color: #ccc;
+    background-color: #C0CFC0;
     -webkit-transition: .4s;
     transition: .4s;
 }
@@ -72,9 +75,9 @@ h2 {
     width: 26px;
     left: 4px;
     bottom: 4px;
-    background-color: white;
-    -webkit-transition: .4s;
-    transition: .4s;
+    background-color: #EAFFEA;
+    -webkit-transition: .6s;
+    transition: .6s;
 }
 
 
